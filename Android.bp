@@ -1181,6 +1181,7 @@ rust_test {
 
 cc_library_static {
     name: "aidl-analyzer-main",
+    recovery_available: true,
     host_supported: true,
     vendor_available: true,
     shared_libs: [
